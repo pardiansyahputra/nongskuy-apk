@@ -1,0 +1,19 @@
+{
+  "name": "nongskuy-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^5.5.2",
+    "wrangler": "^4.139.0"
+  },
+  "dependencies": {
+    "fcm-cloudflare-workers": "^2.0.1"
+  }
+}

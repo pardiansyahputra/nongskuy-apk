@@ -1,0 +1,24 @@
+# Built application files
+*.apk
+*.apks
+*.aab
+
+# Generated files
+bin/
+gen/
+build/
+.cxx/
+.externalNativeBuild/
+
+# Local configuration file (Sangat penting agar path SDK lokal tidak ikut ke-upload)
+local.properties
+
+# IDE specific files
+.idea/
+.gradle/
+.kotlin/
+*.iml
+.DS_Store
+
+# Captures
+/captures

@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+# Ignore file rahasia backend
+nongskuy-backend/service-account.json
+nongskuy-backend/node_modules/
+nongskuy-backend/.wrangler/
+
+# Ignore file temporary Android
+nongskuy/.gradle/
+nongskuy/.kotlin/
+nongskuy/build/
+nongskuy/local.properties
+nongskuy/.idea/
+=======
+# Built application files
+*.apk
+*.apks
+*.aab
+
+# Generated files
+bin/
+gen/
+build/
+.cxx/
+.externalNativeBuild/
+
+# Local configuration file (Sangat penting agar path SDK lokal tidak ikut ke-upload)
+local.properties
+
+# IDE specific files
+.idea/
+.gradle/
+.kotlin/
+*.iml
+.DS_Store
+
+# Captures
+/captures
+>>>>>>> 7553a89846c45344b62e98d37c73b4b3b8665a8b
